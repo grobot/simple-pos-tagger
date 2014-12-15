@@ -1,0 +1,25 @@
+{
+  "name": "function-word-tagger",
+  "description": "",
+  "version": "0.0.1",
+  "main": "./function-word-tagger.js",
+  "author": {
+    "name": "Hugo W.L. ter Doest",
+    "email": "hwl.ter.doest@gmail.com"
+  },
+  "keywords": [],
+  "licenses": {
+    "type": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YOUR_LOGIN/function-word-tagger.git"
+  },
+  "bugs": {
+    "url": "http://github.com/YOUR_LOGIN/function-word-tagger/issues"
+  },
+  "dependencies": {
+    "fs" : "*",
+    "log4js": "*"
+  }
+}
