@@ -1,8 +1,8 @@
 Function word tagger
 ==============
-Tags function words.
-Usage:
+A tagger that tags function words. It can be used to complement a tagger like Wordnet which covers nouns, verbs, adjectives and adverbs. The principle of the tagger is simple: per lexical category a list can be supplied that is used to tag words. Words may occur in multiple lists.
 
+#Usage
 ```
 var Tagger = require("./lib/FunctionWordTagger");
 
