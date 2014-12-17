@@ -1,7 +1,7 @@
 {
   "name": "function-word-tagger",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "./function-word-tagger.js",
   "author": {
     "name": "Hugo W.L. ter Doest",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/YOUR_LOGIN/function-word-tagger.git"
+    "url": "git://github.com/Hugo-ter-Doest/function-word-tagger.git"
   },
   "bugs": {
-    "url": "http://github.com/YOUR_LOGIN/function-word-tagger/issues"
+    "url": "http://github.com/Hugo-ter-Doest/function-word-tagger/issues"
   },
   "dependencies": {
     "fs" : "*",
