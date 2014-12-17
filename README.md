@@ -12,3 +12,5 @@ new Tagger(function(tagger){
   console.log(tagged_sentence);
 });
 ```
+
+The lexicon files are configured in <code>data/lexicon_files.json</code>
