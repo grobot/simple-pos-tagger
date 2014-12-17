@@ -1,7 +1,7 @@
 {
   "name": "function-word-tagger",
   "description": "",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "./function-word-tagger.js",
   "author": {
     "name": "Hugo W.L. ter Doest",
