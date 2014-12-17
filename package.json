@@ -7,7 +7,7 @@
     "name": "Hugo W.L. ter Doest",
     "email": "hwl.ter.doest@gmail.com"
   },
-  "keywords": [],
+  "keywords": ["natural language processing", "tagger", "tagging", "function word", "computer linguistics"],
   "licenses": {
     "type": "gpl30"
   },
