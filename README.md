@@ -3,7 +3,7 @@ A part of speech tagger that tags function words. It can be used to complement a
 
 #Usage
 ```
-var Tagger = require("./lib/FunctionWordTagger");
+var Tagger = require("FunctionWordTagger");
 
 new Tagger(function(tagger){
   var sentence = ["I", "see", "the", "man", "with", "the", "telescope"];
@@ -11,5 +11,5 @@ new Tagger(function(tagger){
   console.log(tagged_sentence);
 });
 ```
-
+#Configuration
 The lexicon files are configured in <code>data/lexicon_files.json</code>
