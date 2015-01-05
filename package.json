@@ -1,13 +1,19 @@
 {
   "name": "function-word-tagger",
   "description": "",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "./function-word-tagger.js",
   "author": {
     "name": "Hugo W.L. ter Doest",
     "email": "hwl.ter.doest@gmail.com"
   },
-  "keywords": ["natural language processing", "tagger", "tagging", "function word", "computer linguistics"],
+  "keywords": [
+    "natural language processing",
+    "tagger",
+    "tagging",
+    "function word",
+    "computer linguistics"
+  ],
   "licenses": {
     "type": "gpl30"
   },
@@ -19,7 +25,7 @@
     "url": "http://github.com/Hugo-ter-Doest/function-word-tagger/issues"
   },
   "dependencies": {
-    "fs" : "*",
+    "fs": "*",
     "log4js": "*"
   }
 }
