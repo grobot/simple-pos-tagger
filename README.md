@@ -14,8 +14,9 @@ The tagger accepts an array of words as input and assigns to each word of the in
 #Usage
 ```
 var Tagger = require("FunctionWordTagger");
+var config_file = basedir + "data/English/lexicon.json";
 
-new Tagger(function(tagger) {
+new Tagger(config_file, function(tagger) {
   var sentence = ["I", "see", "the", "man", "with", "the", "telescope"];
   var tagged_sentence = tagger.tag_sentence(sentence);
   console.log(tagged_sentence);
@@ -34,21 +35,21 @@ Output of the tagger is:
 Note that the value of untagged words is <code>undefined</code>
 
 #Configuration
-The lexicon files are configured in <code>data/lexicon_files.json</code>. Example of a configuration file:
+The lexicon files are configured in <code>data/lexicon_files.json</code>. Example of a configuration file for English:
 ```
-[ "function_words_adverb.txt",
-  "function_words_indefinite_pronoun.txt",
-  "function_words_possessive_pronoun.txt",
-  "function_words_relative_pronoun.txt",
-  "function_words_conjunction.txt",
-  "function_words_interrogative_pronoun.txt",
-  "function_words_preposition.txt",
-  "function_words_demonstrative_pronoun.txt",
-  "function_words_particle.txt",
-  "function_words_reciprocal_pronoun.txt",
-  "function_words_determiner.txt",
-  "function_words_personal_pronoun.txt",
-  "function_words_reflexive_pronoun.txt"
+[ "adverb.txt",
+  "indefinite_pronoun.txt",
+  "possessive_pronoun.txt",
+  "relative_pronoun.txt",
+  "conjunction.txt",
+  "interrogative_pronoun.txt",
+  "preposition.txt",
+  "demonstrative_pronoun.txt",
+  "particle.txt",
+  "reciprocal_pronoun.txt",
+  "determiner.txt",
+  "personal_pronoun.txt",
+  "reflexive_pronoun.txt"
 ]
 ```
 A set of files with function words for the English language is provided with the module.
