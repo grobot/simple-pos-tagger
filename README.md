@@ -35,7 +35,7 @@ Output of the tagger is:
 Note that the value of untagged words is <code>undefined</code>
 
 #Configuration
-The lexicon files are configured in <code>data/lexicon_files.json</code>. Example of a configuration file for English:
+The lexicon files are configured in <code>data/LANGUAGE/lexicon_files.json</code>. Example of a configuration file for English:
 ```
 [ "adverb.txt",
   "indefinite_pronoun.txt",
@@ -52,4 +52,4 @@ The lexicon files are configured in <code>data/lexicon_files.json</code>. Exampl
   "reflexive_pronoun.txt"
 ]
 ```
-A set of files with function words for the English language is provided with the module.
+A set of files with function words for the English and Dutch language are provided with the module.
