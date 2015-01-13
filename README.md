@@ -53,3 +53,6 @@ The lexicon files are configured in <code>data/LANGUAGE/lexicon_files.json</code
 ]
 ```
 A set of files with function words for the English and Dutch language are provided with the module.
+
+#Development
+I am working on an variant of the tagger that returns a chart instead of a tagged sentence (array) as shown above. This enables the tagger to recognise lexical items that cover more than one word. The chart can then be fed to a chart parser.
