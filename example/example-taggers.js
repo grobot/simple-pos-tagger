@@ -19,7 +19,8 @@
 var Tagger = require("../lib/FunctionWordTagger");
 
 // Path to the lexicon files
-var path_to_lexicon = "/home/hugo/Workspace/function-word-tagger/data/";
+//var path_to_lexicon = "/home/hugo/Workspace/function-word-tagger/data/";
+var path_to_lexicon = "/Eclipse Workspace/function-word-tagger/data/";
 
 var config_files = [path_to_lexicon + "Dutch/lexicon_files.json", 
                     path_to_lexicon + "English/lexicon_files.json"];
@@ -39,8 +40,3 @@ new Tagger(config_files[0], function(tagger) {
     console.log(chart);
   });
 });
-
-
-
-
-
