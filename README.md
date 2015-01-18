@@ -32,7 +32,12 @@ Output of the tagger is:
   [ 'the', [ 'determiner' ] ],
   [ 'telescope', undefined ] ]
 ```
-Note that the value of untagged words is <code>undefined</code>
+Note that the value of untagged words is <code>undefined</code>.
+A variant of the tagger returns a chart instead of a tagged sentence (array) as shown above. This enables the tagger to recognise lexical items that cover more than one word.
+The chart is initialised with CYK items of the form <code>(A, i, j)</code>. 
+```
+var chart = tagger.tag_sentence(sentence);
+```
 
 #Configuration
 The lexicon files are configured in <code>data/LANGUAGE/lexicon_files.json</code>. Example of a configuration file for English:
@@ -53,6 +58,3 @@ The lexicon files are configured in <code>data/LANGUAGE/lexicon_files.json</code
 ]
 ```
 A set of files with function words for the English and Dutch language are provided with the module.
-
-#Development
-I am working on a variant of the tagger that returns a chart instead of a tagged sentence (array) as shown above. This enables the tagger to recognise lexical items that cover more than one word. The chart can then be fed to a chart parser.
