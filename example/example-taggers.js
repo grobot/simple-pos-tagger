@@ -19,14 +19,15 @@
 var Tagger = require("../lib/FunctionWordTagger");
 
 // Path to the lexicon files
-//var path_to_lexicon = "/home/hugo/Workspace/function-word-tagger/data/";
-var path_to_lexicon = "/Eclipse Workspace/function-word-tagger/data/";
+var path_to_lexicon = "/home/hugo/Workspace/function-word-tagger/data/";
+//var path_to_lexicon = "/Eclipse Workspace/function-word-tagger/data/";
 
 var config_files = [path_to_lexicon + "Dutch/lexicon_files.json", 
                     path_to_lexicon + "English/lexicon_files.json"];
 
 var sentences = [["ik", "zie", "de", "man", "met", "de", "verrekijker"],
-                 ["I", "see", "the", "man", "with", "the", "telescope"]];
+                 ["I", "see", "the", "man", "with", "the", "telescope"],
+                 ["in", "accordance", "with"]];
 
 new Tagger(config_files[0], function(tagger) {
   var tagged_sentence = tagger.tag_sentence(sentences[0]);
@@ -38,5 +39,9 @@ new Tagger(config_files[0], function(tagger) {
     console.log(tagged_sentence);
     var chart = tagger.tag_sentence_chart(sentences[1]);
     console.log(chart);
+    var tagged_sentence = tagger.tag_sentence(sentences[2]);
+    console.log(tagged_sentence);
+    var chart = tagger.tag_sentence_chart(sentences[2]);
+    console.log(JSON.stringify(chart, undefined, 2));
   });
 });
