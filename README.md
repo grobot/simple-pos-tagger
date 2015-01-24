@@ -1,10 +1,10 @@
-#Function word tagger
-A part of speech tagger that tags function words. 
+#Simple POS tagger
+A simple part of speech tagger. 
 
 #Installation
-Function word tagger can be installed using npm as follows:
+The POS tagger can be installed using npm as follows:
 ```
-npm install function-word-tagger
+npm install simple-pos-tagger
 ```
 
 #Functionality
@@ -13,7 +13,7 @@ The tagger accepts an array of words as input and assigns to each word of the in
 
 #Usage
 ```
-var Tagger = require("FunctionWordTagger");
+var Tagger = require("SimplePOSTagger");
 var config_file = basedir + "data/English/lexicon.json";
 
 new Tagger(config_file, function(tagger) {
