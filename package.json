@@ -1,6 +1,6 @@
 {
   "name" : "simple-pos-tagger",
-  "version" : "0.0.17",
+  "version" : "0.0.18",
   "main" : "./lib/SimplePOSTagger.js",
   "author" : {
     "name" : "Hugo W.L. ter Doest",
@@ -20,6 +20,7 @@
   "dependencies" : {
     "fs" : "*",
     "log4js" : "*",
-    "underscore": "*"
+    "underscore": "*",
+    "typeof": "*"
   }
 }
