@@ -1,21 +1,21 @@
 {
   "name" : "simple_pos_tagger",
   "version" : "0.0.13",
-  "main" : "./lib/FunctionWordTagger.js",
+  "main" : "./lib/SimplePOSTagger.js",
   "author" : {
     "name" : "Hugo W.L. ter Doest",
     "email" : "hwl.ter.doest@gmail.com"
   },
-  "keywords" : [ "natural language processing", "tagger", "tagging", "function word", "computer linguistics" ],
+  "keywords" : [ "natural language processing", "tagger", "tagging", "POS tagging", "computer linguistics" ],
   "licenses" : {
     "type" : "gpl30"
   },
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/Hugo-ter-Doest/function-word-tagger.git"
+    "url" : "git://github.com/Hugo-ter-Doest/simple-pos-tagger.git"
   },
   "bugs" : {
-    "url" : "http://github.com/Hugo-ter-Doest/function-word-tagger/issues"
+    "url" : "http://github.com/Hugo-ter-Doest/simple-pos-tagger/issues"
   },
   "dependencies" : {
     "fs" : "*",
