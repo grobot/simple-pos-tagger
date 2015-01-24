@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-var FWT = require('../lib/FunctionWordTagger');
+var FWT = require('../lib/SimplePOSTagger');
 
 // Path to the lexicon files
 var path_to_lexicon = "/home/hugo/Workspace/simple_pos_tagger/data/";
