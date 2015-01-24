@@ -19,7 +19,7 @@
 var Tagger = require("../lib/FunctionWordTagger");
 
 // Path to the lexicon files
-var path_to_lexicon = "/home/hugo/Workspace/function-word-tagger/data/";
+var path_to_lexicon = "/home/hugo/Workspace/simple_pos_tagger/data/";
 //var path_to_lexicon = "/Eclipse Workspace/function-word-tagger/data/";
 
 var config_files = [path_to_lexicon + "Dutch/lexicon_files.json", 

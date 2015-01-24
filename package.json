@@ -1,31 +1,24 @@
 {
-  "name": "function-word-tagger",
-  "description": "",
-  "version": "0.0.13",
-  "main": "./lib/FunctionWordTagger.js",
-  "author": {
-    "name": "Hugo W.L. ter Doest",
-    "email": "hwl.ter.doest@gmail.com"
+  "name" : "simple_pos_tagger",
+  "version" : "0.0.13",
+  "main" : "./lib/FunctionWordTagger.js",
+  "author" : {
+    "name" : "Hugo W.L. ter Doest",
+    "email" : "hwl.ter.doest@gmail.com"
   },
-  "keywords": [
-    "natural language processing",
-    "tagger",
-    "tagging",
-    "function word",
-    "computer linguistics"
-  ],
-  "licenses": {
-    "type": "gpl30"
+  "keywords" : [ "natural language processing", "tagger", "tagging", "function word", "computer linguistics" ],
+  "licenses" : {
+    "type" : "gpl30"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Hugo-ter-Doest/function-word-tagger.git"
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/Hugo-ter-Doest/function-word-tagger.git"
   },
-  "bugs": {
-    "url": "http://github.com/Hugo-ter-Doest/function-word-tagger/issues"
+  "bugs" : {
+    "url" : "http://github.com/Hugo-ter-Doest/function-word-tagger/issues"
   },
-  "dependencies": {
-    "fs": "*",
-    "log4js": "*"
+  "dependencies" : {
+    "fs" : "*",
+    "log4js" : "*"
   }
 }
