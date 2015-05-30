@@ -22,18 +22,18 @@ var FWT = require('../lib/SimplePOSTagger');
 var path_to_lexicon = "/home/hugo/Workspace/simple-pos-tagger/data/";
 //var path_to_lexicon = "/Eclipse Workspace/function-word-tagger/data/";
 
-var config_files = [path_to_lexicon + "Dutch/lexicon_files.json", 
-                    path_to_lexicon + "English/lexicon_files.json"];
+var lexiconFiles = [path_to_lexicon + "dutch.json",
+                    path_to_lexicon + "english.json"];
 
 var sentences = [["ik", "zie", "de", "man", "met", "de", "verrekijker"],
                  ["I", "see", "the", "man", "with", "the", "telescope"],
                  ["in", "accordance", "with"]];
 
-describe("The function word tagger", function() {
+describe("The part of speech tagger", function() {
 
   it("Reads a Dutch lexicon and tags sentences", function() {
     // Create tagger
-    var tagger = new FWT(config_files[0]);
+    var tagger = new FWT(lexiconFiles[0], false);
     var tagged_sentence = tagger.tag_sentence(sentences[0]);
     expect(tagged_sentence).toEqual([ [ 'ik', [ 'persoonlijk_voornaamwoord' ] ],
                                       [ 'zie', undefined ],
@@ -46,7 +46,7 @@ describe("The function word tagger", function() {
   
   it("Reads an English lexicon and tags sentences", function() {
     // Create tagger
-    var tagger = new FWT(config_files[1]);
+    var tagger = new FWT(lexiconFiles[1], false);
     var tagged_sentence = tagger.tag_sentence(sentences[1]);
     expect(tagged_sentence).toEqual([ [ 'I', [ 'personal_pronoun' ] ],
                                       [ 'see', undefined ],
