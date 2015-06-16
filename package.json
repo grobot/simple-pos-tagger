@@ -18,7 +18,6 @@
     "url" : "http://github.com/Hugo-ter-Doest/simple-pos-tagger/issues"
   },
   "dependencies" : {
-    "fs" : "*",
     "log4js" : "*",
     "underscore": "*",
     "typeof": "*"
