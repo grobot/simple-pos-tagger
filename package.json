@@ -1,25 +1,32 @@
 {
-  "name" : "simple-pos-tagger",
-  "version" : "0.0.19",
-  "main" : "./lib/SimplePOSTagger.js",
-  "author" : {
-    "name" : "Hugo W.L. ter Doest",
-    "email" : "hwl.ter.doest@gmail.com"
+  "name": "simple-pos-tagger",
+  "version": "0.0.20",
+  "main": "./lib/SimplePOSTagger.js",
+  "author": {
+    "name": "Hugo W.L. ter Doest",
+    "email": "hwl.ter.doest@gmail.com"
   },
-  "keywords" : [ "natural language processing", "tagger", "tagging", "POS tagging", "computer linguistics" ],
-  "licenses" : {
-    "type" : "gpl30"
+  "keywords": [
+    "natural language processing",
+    "tagger",
+    "tagging",
+    "POS tagging",
+    "computer linguistics"
+  ],
+  "licenses": {
+    "type": "gpl30"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/Hugo-ter-Doest/simple-pos-tagger.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hugo-ter-Doest/simple-pos-tagger.git"
   },
-  "bugs" : {
-    "url" : "http://github.com/Hugo-ter-Doest/simple-pos-tagger/issues"
+  "bugs": {
+    "url": "http://github.com/Hugo-ter-Doest/simple-pos-tagger/issues"
   },
-  "dependencies" : {
-    "log4js" : "*",
+  "dependencies": {
+    "log4js": "*",
     "underscore": "*",
-    "typeof": "*"
+    "typeof": "*",
+    "natural": "^0.2.1"
   }
 }

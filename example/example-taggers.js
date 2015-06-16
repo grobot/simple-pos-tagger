@@ -14,11 +14,11 @@ var config_files = {
 
 var sentences = {
   dutch: [
-    ["ik", "zie", "de", "man", "met", "de", "verrekijker"]
+    "ik zie de man met de verrekijker"
   ],
   english: [
-    ["I", "see", "the", "man", "with", "the", "telescope"],
-    ["in", "accordance", "with"]
+    "I see the man with the telescope",
+    "in accordance with",
   ]
 };
 

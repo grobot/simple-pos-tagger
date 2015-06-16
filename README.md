@@ -17,7 +17,7 @@ var Tagger = require("simple-pos-tagger");
 var config_file = __dirname + "./node_modules/simple-pos-tagger/data/English/lexicon_files.json";
 
 var tagger = new Tagger(config_file, true);
-var sentence = ["I", "see", "the", "man", "with", "the", "telescope"];
+var sentence = "I see the man with the telescope";
 var tagged_sentence = tagger.tag_sentence(sentence);
 console.log(tagged_sentence);
 ```
@@ -38,7 +38,7 @@ A variant of the tagger returns a chart instead of a tagged sentence (array) as 
 The chart is initialised with CYK items of the form `(A, i, j)`.
 ```
 var util = require('util');
-var sentence = ["I", "see", "the", "man", "with", "the", "telescope"];
+var sentence = "I see the man with the telescope";
 var chart = tagger.tag_sentence_chart(sentence);
 console.log(util.inspect(chart, {depth: null}));
 ```
